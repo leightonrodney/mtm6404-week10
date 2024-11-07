@@ -1,0 +1,15 @@
+.nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #444;
+}
+
+.nav-menu a.active {
+    font-weight: bold;
+    color: #000;
+    text-decoration: underline;
+}
